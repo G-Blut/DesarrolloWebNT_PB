@@ -96,6 +96,11 @@ switch (Motocicleta){
 
 //If Statement
 
+if (2+2===4)
+{
+    console.log("Efectivamente, no es pez")
+} 
+
 //Logical Operator !
 
 //Comparison Operators
