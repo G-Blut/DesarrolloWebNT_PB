@@ -74,6 +74,26 @@ console.log(result3)
 
 //Switch Statement
 
+const Motocicleta = 'pancakes';
+
+switch (Motocicleta){
+
+    case 'Ninja 400':
+        console.log("La opcion mas balanceada por su estilo y poder.")
+        break
+
+    case 'Versys 650':
+        console.log("Definitivamente una gran eleccion para viajes.")
+        break
+
+    case 'Z1000 R':
+        console.log("Una deportiva de alto calibre.")
+        break
+    
+    default:
+        console.log("Señor no mame, esto es un concesionario BMW.")
+}
+
 //If Statement
 
 //Logical Operator !
