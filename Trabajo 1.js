@@ -1,5 +1,3 @@
-let Person ="Peter"
-
 let Person1="Dana"
 
 const Superior = "Gerente"
@@ -8,6 +6,7 @@ const Superior = "Gerente"
 
 function Saludar_Personal()
 {
+    let Person ="Peter"
     const Cordial = "Buenos dias";
 
     console.log(Cordial, Person)
@@ -18,3 +17,7 @@ function Saludar_Personal()
 }
 
 Saludar_Personal();
+
+console.log(Superior)
+console.log(Cordial)
+console.log(Person)
