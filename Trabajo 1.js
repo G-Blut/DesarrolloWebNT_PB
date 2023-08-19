@@ -3,8 +3,6 @@ let Person1="Dana"
 
 const Superior = "Gerente"
 
-//console.log(Person,Person1)
-
 function Saludar_Personal()
 {
     let Person ="Peter"
@@ -32,6 +30,17 @@ true || false;        // true
 10 > 5 || 10 > 20;    // true
 false || false;       // false
 10 > 100 || 10 > 20;  // false
+
+
+result = 100<200 || 5>20 || 10<20        //true
+result1 = true || false                 //true
+result2 = 200>1000 || 10/2*3==20       //false
+result3 = 100/100 === 2.33|| 2+2===6  //false
+
+console.log(result)
+console.log(result1)
+console.log(result2)
+console.log(result3)
 
 //Ternary Operator
 
