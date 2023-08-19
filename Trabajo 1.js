@@ -62,6 +62,16 @@ else
 
 //Logical Operator &&
 
+result = 100<200 && 5>20 && 10<20      //false
+result1 = true && false               //false
+result2 = 200>100 && 10/2*3==15      //true
+result3 = 100/100 === 1 && 2+2===4  //true
+
+console.log(result)
+console.log(result1)
+console.log(result2)
+console.log(result3)
+
 //Switch Statement
 
 //If Statement
