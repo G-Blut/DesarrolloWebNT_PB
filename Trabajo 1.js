@@ -26,12 +26,6 @@ console.log(Person)
 
 //Logical Operator ||
 
-true || false;        // true
-10 > 5 || 10 > 20;    // true
-false || false;       // false
-10 > 100 || 10 > 20;  // false
-
-
 result = 100<200 || 5>20 || 10<20        //true
 result1 = true || false                 //true
 result2 = 200>1000 || 10/2*3==20       //false
@@ -54,7 +48,17 @@ function Membrecia()
 }
 
 Membrecia();
+
 //Else Statement
+
+if (2+2===5)
+{
+    console.log("!Demonios Gump, eres un genio!")
+} 
+else
+{
+    console.log("Ya lo creo que sí.")
+}
 
 //Logical Operator &&
 
