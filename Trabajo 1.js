@@ -91,7 +91,7 @@ switch (Motocicleta){
         break
     
     default:
-        console.log("Señor no mame, esto es un concesionario BMW.")
+        console.log("Señor no mame, esto es un concesionario Kawasaki.")
 }
 
 //If Statement
@@ -103,8 +103,47 @@ if (2+2===4)
 
 //Logical Operator !
 
+let Reggaeton = true
+let AyudaDivina = !Reggaeton
+
+console.log(AyudaDivina)
+
 //Comparison Operators
 
+result = 2+2===4          //true
+result2 = 2+2!==4        //false
+result3 = 1000>100      //true
+result4 = 1000>=1000   //true
+result5 = 100<1000    //true
+result6 = 100<=100   //true
+
+console.log(result)
+console.log(result2)
+console.log(result3)
+console.log(result4)
+console.log(result5)
+console.log(result6)
+
 //Else if Clause
+
+const Control_Estabilidad = 700
+
+if (Control_Estabilidad >= 7000)
+{
+    console.log('Mi loco empiece a rezar, el reactor va a hacer boom.')
+} else if (Control_Estabilidad >5000)
+{
+    console.log('Reactor funcionando de forma efectiva.')
+} else if (Control_Estabilidad >=3000)
+{
+    console.log('Reactor funcionando por debajo de la eficiencia deseada.')
+} else if (Control_Estabilidad >1500)
+{
+    console.log('Reactor ahogado, se recomienda proceder a reiniciar la operacion.')
+} else
+{
+    console.log('Requiera la presencia del ingeniero de planta en turno')
+}
+
 
 //Truthy and Falsy
