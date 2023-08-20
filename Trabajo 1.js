@@ -145,5 +145,23 @@ if (Control_Estabilidad >= 7000)
     console.log('Requiera la presencia del ingeniero de planta en turno')
 }
 
-
 //Truthy and Falsy
+
+let log = console.log
+
+let Q = ""
+let Z = 0
+let N = null
+let U = undefined
+let F = false
+
+let R = 1
+
+if (Q||Z||N||U||F||R)
+{
+    log("Hay una variable verdadera.")
+}
+else
+{
+    log("Todas las variables listadas son falsas.")
+}
