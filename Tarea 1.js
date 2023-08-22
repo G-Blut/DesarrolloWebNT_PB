@@ -18,9 +18,6 @@ function Saludar_Personal()
 Saludar_Personal();
 
 console.log(Superior)
-console.log(Cordial)
-console.log(Person)
-
 
 //-----------------Segmento de condicionales---------------------
 
