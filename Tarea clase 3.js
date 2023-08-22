@@ -1,4 +1,4 @@
-const Motos=[
+let Motos=[
 
     {
         Marca:'Kawasaki',
@@ -31,19 +31,27 @@ const Motos=[
     }
 ]
 
-/*let FiltrarMoto = Motos.filter((exibicion) =>
-    {
-            where===exibicion.Modelo.Cilindraje >1000
-            //  console.log(`La marca del vehiculo es: ${exibicion.Marca}, Y el modelo presenta las siguientes caracteristicas:`)
-            console.log(`Año: ${exibicion.Modelo.Anio}, Segmento: ${exibicion.Modelo.Segmento}, Nombre: ${exibicion.Modelo.Nombre}, Cilindraje: ${exibicion.Modelo.Cilindraje}`)
-        return console.log(`La marca del vehiculo es: ${exibicion.Marca}`)
- 
-    }    
-)*/
+let MotoNueva=
+{
+    Marca:'Yamaha',
+    Modelo:{
+        Anio:'2024',
+        Segmento:'Super Bike',
+        Nombre:'R1',
+        Cilindraje:998
+    }
+}
+
 ////---------------------------------------------------------------------
 let FiltrarMoto = Motos.filter((exibicion) => exibicion.Modelo.Cilindraje>1000)
-console.log(FiltrarMoto, `La marca del vehiculo es: ${FiltrarMoto}, Y el modelo presenta las siguientes caracteristicas:`)
 
+FiltrarMoto.forEach(exibicion => {
+    
+console.log(FiltrarMoto, `La marca del vehiculo es: ${exibicion.Marca}, Y el modelo presenta las siguientes caracteristicas: `)
+
+console.log(`Año: ${exibicion.Modelo.Anio}, Segmento: ${exibicion.Modelo.Segmento}, Nombre: ${exibicion.Modelo.Nombre}, Cilindraje: ${exibicion.Modelo.Cilindraje}`)
+
+});
 ////---------------------------------------------------------------------
 let MostrarMoto = Motos.map((exibicion) => {
     `${exibicion.Marca} ${exibicion.Modelo.Cilindraje}`
@@ -52,12 +60,9 @@ let MostrarMoto = Motos.map((exibicion) => {
 
 console.log(MostrarMoto)
 ////----------------------------------------------------------------------
+Motos.push(MotoNueva)
+console.log(Motos)
 
-// const FiltrarMotos = Motos.filter((exibicion) =>
-// {
-//     //exibicion.Modelo.Cilindraje >1000
-//     return exibicion
-// })
 
-//console.log(FiltrarMoto,(`La marca del vehiculo es: ${Marca}`))
+
 

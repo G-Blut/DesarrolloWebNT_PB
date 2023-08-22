@@ -1,9 +1,9 @@
+const especies = ['Gato', 'Caballo','Escorpion', 'Perro'];
+
 const PruebaCallback = () => {
     
-    console.log('Callback llamado con exito.')
+     console.log('Callback llamado con exito.')
 }
-
-const especies = ['Gato', 'Caballo','Escorpion', 'Perro'];
 
 const Arreglo1 = (data,callback) =>
 {

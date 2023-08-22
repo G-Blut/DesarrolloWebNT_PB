@@ -1,4 +1,4 @@
-//-------------------Segmento de variables----------------
+//-------------------Segmento de variables---------------
 let Person1="Dana"
 
 const Superior = "Gerente"
@@ -17,9 +17,7 @@ function Saludar_Personal()
 
 Saludar_Personal();
 
-console.log(Superior)
-
-//-----------------Segmento de condicionales---------------------
+//-----------------Segmento de condicionales--------------
 
 //Logical Operator ||
 
