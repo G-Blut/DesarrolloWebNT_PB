@@ -14,7 +14,7 @@ let Motos=[
         Marca:'BMW',
         Modelo:{
             Anio:'2023',
-            Segmento:'Sport',
+            Segmento:'Super Sport',
             Nombre:'S1000 RR',
             Cilindraje:999
         }
@@ -43,13 +43,13 @@ let MotoNueva=
 }
 
 ////---------------------------------------------------------------------
-let FiltrarMoto = Motos.filter((exibicion) => exibicion.Modelo.Cilindraje>1000)
+let FiltrarMoto = Motos.filter((exibicion) => exibicion.Modelo.Cilindraje<1000)
 
 FiltrarMoto.forEach(exibicion => {
     
-console.log(FiltrarMoto, `La marca del vehiculo es: ${exibicion.Marca}, Y el modelo presenta las siguientes caracteristicas: `)
+console.log(`La marca del vehiculo es: ${exibicion.Marca}, Y el modelo presenta las siguientes caracteristicas: `)
 
-console.log(`Año: ${exibicion.Modelo.Anio}, Segmento: ${exibicion.Modelo.Segmento}, Nombre: ${exibicion.Modelo.Nombre}, Cilindraje: ${exibicion.Modelo.Cilindraje}`)
+console.log(` Año:${exibicion.Modelo.Anio}\n Segmento: ${exibicion.Modelo.Segmento}\n Nombre: ${exibicion.Modelo.Nombre}\n Cilindraje: ${exibicion.Modelo.Cilindraje}\n`)
 
 });
 ////---------------------------------------------------------------------
