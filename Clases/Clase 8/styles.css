@@ -1,0 +1,57 @@
+/* Estilo para el contenedor principal */
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para los títulos */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los botones de elección */
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilo para el resultado */
+  #resultDisplay {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c; /* Color rojo para el resultado */
+  }
+  
+  /* Estilo para las elecciones del usuario y la computadora */
+  #usersChoice, #computersChoice {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para la jugada de la computadora */
+  #computersChoice {
+    font-style: italic;
+  }
+  
+  /* Estilo para un fondo de juego */
+  body {
+    background-color: #ecf0f1; /* Color de fondo gris claro */
+  }
+  

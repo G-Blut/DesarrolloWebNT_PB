@@ -1,0 +1,64 @@
+body {
+    color: #dfe5e9; /* Cambiado a un tono de gris oscuro */
+    background-color: #7a2323; /* Cambiado a un tono de gris claro */
+    font: normal 16px "Arial", sans-serif; /* Tamaño de fuente reducido y cambiada la fuente */
+}
+
+.container {
+    width: 90%; /* Ampliado el ancho del contenedor */
+    max-width: 1000px; /* Reducida la anchura máxima */
+    margin: 20px auto; /* Aumentado el margen */
+    padding: 20px; /* Agregado espacio interno */
+    background-color: #36ae96; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.flex-outer > li:not(:last-child) {
+    margin-bottom: 10px; /* Reducido el espacio entre elementos del formulario */
+}
+
+.flex-inner {
+    padding: 0; /* Eliminado el relleno */
+    justify-content: space-between; /* Distribución uniforme de elementos */
+}
+
+.flex-outer li label,
+.flex-outer li p {
+    text-transform: capitalize; /* Cambiado a capitalización de palabras */
+    letter-spacing: .05em; /* Ajuste de espaciado entre letras */
+    padding: 6px 0; /* Ajuste de relleno */
+    font-weight: 400; /* Cambiado a un peso de fuente más estándar */
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+    flex: 1 0 100%; /* Cambiado el crecimiento y factor de base de flexibilidad */
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+    flex: 2 0 100%; /* Cambiado el crecimiento y factor de base de flexibilidad */
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Aumentado el relleno */
+    border: 1px solid #ccc; /* Borde delgado y color gris */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.flex-outer li button {
+    background-color: #007bff; /* Cambiado a un tono de azul */
+    color: #f3f3f3; /* Texto blanco */
+    margin: auto;
+    padding: 10px 20px; /* Ajuste del relleno */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Cambiado a cursor de puntero */
+}
+
+.flex-outer li button:hover {
+    background-color: #0056b3; /* Cambiado el color al pasar el ratón */
+}
