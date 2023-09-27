@@ -24,6 +24,29 @@ document.addEventListener('DOMContentLoaded', function () {
     Indicaciones.appendChild(T_Indicaciones);
     IdShape.appendChild(Indicaciones);
 
+    const prelude = `
+    <section>
+    <ul class="container">
+    <img src="https://cdn-icons-png.flaticon.com/512/6073/6073873.png" alt="Error al cargar imagen.jpg xd">
+    </ul>
+    </section>
+    `
+    const imagen = document.createElement('section')
+    imagen.innerHTML = prelude
+    IdShape.appendChild(imagen)
+
+    const opcion=`
+    <p>Motivos por los cuales nos debes de elegir</p>
+    <ul>
+        <li>Este programa es superio a la competencia</li>
+        <li>El mejor resultado gratis</li>
+    </ul>
+    `
+    const intro = document.createElement('section')
+    intro.innerHTML = opcion
+    IdShape.appendChild(intro)
+
+
     const IngresoNom = document.createElement('input');
     IngresoNom.id = 'IngresoNom';
     IdShape.appendChild(IngresoNom);
@@ -34,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
     parrafo.textContent = 'Estas son las distintas opciones que tienes para elegir';
     IdShape.appendChild(parrafo)
 
-
     const TipoCorreo = ['@gmail.com', '@hotmail.com', '@outlook.com'];
 
     for (let index = 0; index < TipoCorreo.length; index++) {
@@ -44,6 +66,21 @@ document.addEventListener('DOMContentLoaded', function () {
         btnSelect.addEventListener('click', EventoClick);
         IdShape.appendChild(btnSelect);
     }
+
+    
+    //const relleno = document.createElement('section')
+    //relleno.classList.add('infoAdicional')
+    //relleno.innerHTML= pruebainsercion
+
+    const pruebainsercion = `
+    <small>Aqui esta tu resultado</small>
+    <br>
+    <strong>Espero que este programa haya sido de tu agrado.</strong>
+    `
+    const relleno = document.createElement('section')
+    relleno.classList.add('infoAdicional')
+    relleno.innerHTML= pruebainsercion
+    IdShape.appendChild(relleno)
 
     SalidaCor = document.createElement('h3');
     IdShape.appendChild(SalidaCor);
